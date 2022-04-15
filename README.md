@@ -1,7 +1,12 @@
 # Uniswap Adapter Contract
 
-Adapter contract: 
+Adapter contract: https://rinkeby.etherscan.io/address/0xbe2954b0a802c9fdb586792e713aa57ea7412d22
 
+TST Token: https://rinkeby.etherscan.io/address/0x402f65914c7d7e50a22a2a8b477dc1698c03a51c
+
+ACDM Token: https://rinkeby.etherscan.io/address/0xb150fd9e25221b9a262723a64064e14a1273d3d4
+
+POP Token: https://rinkeby.etherscan.io/address/0x506ef315b1940a3abdfe90e7d61193db25810a5d
 
 #### Как формируется цена ЛП?
 
