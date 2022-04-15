@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.1;
 
-interface IACDMToken {
+interface IToken {
     function transfer(address to, uint256 amount) external returns (bool);
 
     function transferFrom(
@@ -9,6 +9,8 @@ interface IACDMToken {
         address to,
         uint256 amount
     ) external returns (bool);
+
+    function approve(address to, uint256 amount) external;
 
     function mint(address to, uint256 amount) external;
 

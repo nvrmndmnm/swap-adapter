@@ -26,6 +26,11 @@ module.exports = {
     },
     localhost: {
       url: 'http://localhost:8545'
+    },
+    hardhat: {
+      forking: {
+        url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`,
+      }
     }
   },
   etherscan: {
